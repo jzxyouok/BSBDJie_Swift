@@ -7,21 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8A0A6B091C8837DB00EC18E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0A6B081C8837DB00EC18E8 /* AppDelegate.swift */; };
-		8A0A6B0B1C8837DB00EC18E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0A6B0A1C8837DB00EC18E8 /* ViewController.swift */; };
-		8A0A6B0E1C8837DB00EC18E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A0A6B0C1C8837DB00EC18E8 /* Main.storyboard */; };
 		8A0A6B101C8837DB00EC18E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A0A6B0F1C8837DB00EC18E8 /* Assets.xcassets */; };
-		8A0A6B131C8837DB00EC18E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A0A6B111C8837DB00EC18E8 /* LaunchScreen.storyboard */; };
+		8A8E268C1C9175E70090C2F7 /* BSTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8E268A1C9175E70090C2F7 /* BSTabBar.swift */; settings = {ASSET_TAGS = (); }; };
+		8A8E268D1C9175E70090C2F7 /* BSTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8E268B1C9175E70090C2F7 /* BSTabBarController.swift */; settings = {ASSET_TAGS = (); }; };
+		8A8E26901C9175F70090C2F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8E268F1C9175F70090C2F7 /* AppDelegate.swift */; settings = {ASSET_TAGS = (); }; };
+		8AB1E07D1C911F3D00F3C65E /* BSEssenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB1E07C1C911F3D00F3C65E /* BSEssenceViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		8AB1E07F1C911F4500F3C65E /* BSNewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB1E07E1C911F4500F3C65E /* BSNewViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		8AB1E0811C911F5200F3C65E /* BSFriendTrendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB1E0801C911F5200F3C65E /* BSFriendTrendsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		8AB1E0831C911F5A00F3C65E /* BSMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB1E0821C911F5A00F3C65E /* BSMeViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8A0A6B051C8837DB00EC18E8 /* BSBDJie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BSBDJie.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A0A6B081C8837DB00EC18E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8A0A6B0A1C8837DB00EC18E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8A0A6B0D1C8837DB00EC18E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8A0A6B0F1C8837DB00EC18E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8A0A6B121C8837DB00EC18E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A0A6B141C8837DB00EC18E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A8E268A1C9175E70090C2F7 /* BSTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSTabBar.swift; sourceTree = "<group>"; };
+		8A8E268B1C9175E70090C2F7 /* BSTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSTabBarController.swift; sourceTree = "<group>"; };
+		8A8E268F1C9175F70090C2F7 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8AB1E07C1C911F3D00F3C65E /* BSEssenceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSEssenceViewController.swift; sourceTree = "<group>"; };
+		8AB1E07E1C911F4500F3C65E /* BSNewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSNewViewController.swift; sourceTree = "<group>"; };
+		8AB1E0801C911F5200F3C65E /* BSFriendTrendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSFriendTrendsViewController.swift; sourceTree = "<group>"; };
+		8AB1E0821C911F5A00F3C65E /* BSMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSMeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +60,41 @@
 		8A0A6B071C8837DB00EC18E8 /* BSBDJie */ = {
 			isa = PBXGroup;
 			children = (
-				8A0A6B081C8837DB00EC18E8 /* AppDelegate.swift */,
-				8A0A6B0A1C8837DB00EC18E8 /* ViewController.swift */,
-				8A0A6B0C1C8837DB00EC18E8 /* Main.storyboard */,
+				8A8E268E1C9175F70090C2F7 /* Other */,
+				8A8E26801C9175C40090C2F7 /* BaseFunc */,
+				8AB1E07B1C911F2E00F3C65E /* Module */,
 				8A0A6B0F1C8837DB00EC18E8 /* Assets.xcassets */,
-				8A0A6B111C8837DB00EC18E8 /* LaunchScreen.storyboard */,
 				8A0A6B141C8837DB00EC18E8 /* Info.plist */,
 			);
 			path = BSBDJie;
+			sourceTree = "<group>";
+		};
+		8A8E26801C9175C40090C2F7 /* BaseFunc */ = {
+			isa = PBXGroup;
+			children = (
+				8A8E268A1C9175E70090C2F7 /* BSTabBar.swift */,
+				8A8E268B1C9175E70090C2F7 /* BSTabBarController.swift */,
+			);
+			path = BaseFunc;
+			sourceTree = "<group>";
+		};
+		8A8E268E1C9175F70090C2F7 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				8A8E268F1C9175F70090C2F7 /* AppDelegate.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		8AB1E07B1C911F2E00F3C65E /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				8AB1E07C1C911F3D00F3C65E /* BSEssenceViewController.swift */,
+				8AB1E07E1C911F4500F3C65E /* BSNewViewController.swift */,
+				8AB1E0801C911F5200F3C65E /* BSFriendTrendsViewController.swift */,
+				8AB1E0821C911F5A00F3C65E /* BSMeViewController.swift */,
+			);
+			path = Module;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -90,6 +123,7 @@
 		8A0A6AFD1C8837DB00EC18E8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = BS;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = shengguoqiang;
 				TargetAttributes = {
@@ -122,9 +156,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A0A6B131C8837DB00EC18E8 /* LaunchScreen.storyboard in Resources */,
 				8A0A6B101C8837DB00EC18E8 /* Assets.xcassets in Resources */,
-				8A0A6B0E1C8837DB00EC18E8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,31 +167,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A0A6B0B1C8837DB00EC18E8 /* ViewController.swift in Sources */,
-				8A0A6B091C8837DB00EC18E8 /* AppDelegate.swift in Sources */,
+				8A8E26901C9175F70090C2F7 /* AppDelegate.swift in Sources */,
+				8AB1E0811C911F5200F3C65E /* BSFriendTrendsViewController.swift in Sources */,
+				8A8E268D1C9175E70090C2F7 /* BSTabBarController.swift in Sources */,
+				8AB1E07F1C911F4500F3C65E /* BSNewViewController.swift in Sources */,
+				8AB1E07D1C911F3D00F3C65E /* BSEssenceViewController.swift in Sources */,
+				8AB1E0831C911F5A00F3C65E /* BSMeViewController.swift in Sources */,
+				8A8E268C1C9175E70090C2F7 /* BSTabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		8A0A6B0C1C8837DB00EC18E8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8A0A6B0D1C8837DB00EC18E8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		8A0A6B111C8837DB00EC18E8 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8A0A6B121C8837DB00EC18E8 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		8A0A6B151C8837DB00EC18E8 /* Debug */ = {
@@ -198,7 +216,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -237,7 +255,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -249,10 +267,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = BSBDJie/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ftd.sl.BSBDJie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -260,10 +282,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = BSBDJie/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ftd.sl.BSBDJie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -286,6 +312,7 @@
 				8A0A6B191C8837DB00EC18E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
