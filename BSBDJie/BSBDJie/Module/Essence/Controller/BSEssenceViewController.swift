@@ -13,7 +13,20 @@ class BSEssenceViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        //设置导航栏标题
+        self.navigationItem.titleView = UIImageView(image: UIImage(named: "MainTitle"))
+        
+        //设置导航栏item
+        let button = UIButton(type: .Custom)
+        button.setBackgroundImage((UIImage(named: "MainTagSubIcon")), forState: UIControlState.Normal)
+        button.setBackgroundImage((UIImage(named: "MainTagSubIconClick")), forState: UIControlState.Highlighted)
+        button.addTarget(self, action: "tagClick", forControlEvents: UIControlEvents.TouchUpInside)
+        button.size = (button.currentBackgroundImage?.size)!
+        self.navigationItem.leftBarButtonItem = UIBarButtonItem(customView: button)
+    }
+    
+    func tagClick() {
+       print("tag")
     }
 
     override func didReceiveMemoryWarning() {

@@ -8,26 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		8A0A6B101C8837DB00EC18E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A0A6B0F1C8837DB00EC18E8 /* Assets.xcassets */; };
+		8A49FA2D1C92BAE500DD53FB /* BSNavgationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A49FA2C1C92BAE500DD53FB /* BSNavgationController.swift */; settings = {ASSET_TAGS = (); }; };
+		8A49FA2F1C92BF6B00DD53FB /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A49FA2E1C92BF6B00DD53FB /* Extension.swift */; settings = {ASSET_TAGS = (); }; };
+		8A49FA441C92C11800DD53FB /* BSEssenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A49FA321C92C11800DD53FB /* BSEssenceViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		8A49FA451C92C11800DD53FB /* BSFriendTrendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A49FA371C92C11800DD53FB /* BSFriendTrendsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		8A49FA461C92C11800DD53FB /* BSMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A49FA3C1C92C11800DD53FB /* BSMeViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		8A49FA471C92C11800DD53FB /* BSNewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A49FA411C92C11800DD53FB /* BSNewViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		8A8E268C1C9175E70090C2F7 /* BSTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8E268A1C9175E70090C2F7 /* BSTabBar.swift */; settings = {ASSET_TAGS = (); }; };
 		8A8E268D1C9175E70090C2F7 /* BSTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8E268B1C9175E70090C2F7 /* BSTabBarController.swift */; settings = {ASSET_TAGS = (); }; };
 		8A8E26901C9175F70090C2F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8E268F1C9175F70090C2F7 /* AppDelegate.swift */; settings = {ASSET_TAGS = (); }; };
-		8AB1E07D1C911F3D00F3C65E /* BSEssenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB1E07C1C911F3D00F3C65E /* BSEssenceViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		8AB1E07F1C911F4500F3C65E /* BSNewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB1E07E1C911F4500F3C65E /* BSNewViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		8AB1E0811C911F5200F3C65E /* BSFriendTrendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB1E0801C911F5200F3C65E /* BSFriendTrendsViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		8AB1E0831C911F5A00F3C65E /* BSMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB1E0821C911F5A00F3C65E /* BSMeViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8A0A6B051C8837DB00EC18E8 /* BSBDJie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BSBDJie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A0A6B0F1C8837DB00EC18E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A0A6B141C8837DB00EC18E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A49FA2C1C92BAE500DD53FB /* BSNavgationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSNavgationController.swift; sourceTree = "<group>"; };
+		8A49FA2E1C92BF6B00DD53FB /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		8A49FA321C92C11800DD53FB /* BSEssenceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSEssenceViewController.swift; sourceTree = "<group>"; };
+		8A49FA371C92C11800DD53FB /* BSFriendTrendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSFriendTrendsViewController.swift; sourceTree = "<group>"; };
+		8A49FA3C1C92C11800DD53FB /* BSMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSMeViewController.swift; sourceTree = "<group>"; };
+		8A49FA411C92C11800DD53FB /* BSNewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSNewViewController.swift; sourceTree = "<group>"; };
 		8A8E268A1C9175E70090C2F7 /* BSTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSTabBar.swift; sourceTree = "<group>"; };
 		8A8E268B1C9175E70090C2F7 /* BSTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSTabBarController.swift; sourceTree = "<group>"; };
 		8A8E268F1C9175F70090C2F7 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8AB1E07C1C911F3D00F3C65E /* BSEssenceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSEssenceViewController.swift; sourceTree = "<group>"; };
-		8AB1E07E1C911F4500F3C65E /* BSNewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSNewViewController.swift; sourceTree = "<group>"; };
-		8AB1E0801C911F5200F3C65E /* BSFriendTrendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSFriendTrendsViewController.swift; sourceTree = "<group>"; };
-		8AB1E0821C911F5A00F3C65E /* BSMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSMeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,11 +73,140 @@
 			path = BSBDJie;
 			sourceTree = "<group>";
 		};
+		8A49FA301C92C11800DD53FB /* Essence */ = {
+			isa = PBXGroup;
+			children = (
+				8A49FA311C92C11800DD53FB /* Controller */,
+				8A49FA331C92C11800DD53FB /* Model */,
+				8A49FA341C92C11800DD53FB /* View */,
+			);
+			path = Essence;
+			sourceTree = "<group>";
+		};
+		8A49FA311C92C11800DD53FB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8A49FA321C92C11800DD53FB /* BSEssenceViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8A49FA331C92C11800DD53FB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8A49FA341C92C11800DD53FB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8A49FA351C92C11800DD53FB /* FriendsTrends */ = {
+			isa = PBXGroup;
+			children = (
+				8A49FA361C92C11800DD53FB /* Controller */,
+				8A49FA381C92C11800DD53FB /* Model */,
+				8A49FA391C92C11800DD53FB /* View */,
+			);
+			path = FriendsTrends;
+			sourceTree = "<group>";
+		};
+		8A49FA361C92C11800DD53FB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8A49FA371C92C11800DD53FB /* BSFriendTrendsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8A49FA381C92C11800DD53FB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8A49FA391C92C11800DD53FB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8A49FA3A1C92C11800DD53FB /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				8A49FA3B1C92C11800DD53FB /* Controller */,
+				8A49FA3D1C92C11800DD53FB /* Model */,
+				8A49FA3E1C92C11800DD53FB /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		8A49FA3B1C92C11800DD53FB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8A49FA3C1C92C11800DD53FB /* BSMeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8A49FA3D1C92C11800DD53FB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8A49FA3E1C92C11800DD53FB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8A49FA3F1C92C11800DD53FB /* New */ = {
+			isa = PBXGroup;
+			children = (
+				8A49FA401C92C11800DD53FB /* Controller */,
+				8A49FA421C92C11800DD53FB /* Model */,
+				8A49FA431C92C11800DD53FB /* View */,
+			);
+			path = New;
+			sourceTree = "<group>";
+		};
+		8A49FA401C92C11800DD53FB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8A49FA411C92C11800DD53FB /* BSNewViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8A49FA421C92C11800DD53FB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8A49FA431C92C11800DD53FB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		8A8E26801C9175C40090C2F7 /* BaseFunc */ = {
 			isa = PBXGroup;
 			children = (
 				8A8E268A1C9175E70090C2F7 /* BSTabBar.swift */,
 				8A8E268B1C9175E70090C2F7 /* BSTabBarController.swift */,
+				8A49FA2C1C92BAE500DD53FB /* BSNavgationController.swift */,
 			);
 			path = BaseFunc;
 			sourceTree = "<group>";
@@ -82,6 +215,7 @@
 			isa = PBXGroup;
 			children = (
 				8A8E268F1C9175F70090C2F7 /* AppDelegate.swift */,
+				8A49FA2E1C92BF6B00DD53FB /* Extension.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -89,10 +223,10 @@
 		8AB1E07B1C911F2E00F3C65E /* Module */ = {
 			isa = PBXGroup;
 			children = (
-				8AB1E07C1C911F3D00F3C65E /* BSEssenceViewController.swift */,
-				8AB1E07E1C911F4500F3C65E /* BSNewViewController.swift */,
-				8AB1E0801C911F5200F3C65E /* BSFriendTrendsViewController.swift */,
-				8AB1E0821C911F5A00F3C65E /* BSMeViewController.swift */,
+				8A49FA301C92C11800DD53FB /* Essence */,
+				8A49FA351C92C11800DD53FB /* FriendsTrends */,
+				8A49FA3A1C92C11800DD53FB /* Me */,
+				8A49FA3F1C92C11800DD53FB /* New */,
 			);
 			path = Module;
 			sourceTree = "<group>";
@@ -167,12 +301,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A49FA2F1C92BF6B00DD53FB /* Extension.swift in Sources */,
+				8A49FA451C92C11800DD53FB /* BSFriendTrendsViewController.swift in Sources */,
 				8A8E26901C9175F70090C2F7 /* AppDelegate.swift in Sources */,
-				8AB1E0811C911F5200F3C65E /* BSFriendTrendsViewController.swift in Sources */,
+				8A49FA471C92C11800DD53FB /* BSNewViewController.swift in Sources */,
 				8A8E268D1C9175E70090C2F7 /* BSTabBarController.swift in Sources */,
-				8AB1E07F1C911F4500F3C65E /* BSNewViewController.swift in Sources */,
-				8AB1E07D1C911F3D00F3C65E /* BSEssenceViewController.swift in Sources */,
-				8AB1E0831C911F5A00F3C65E /* BSMeViewController.swift in Sources */,
+				8A49FA461C92C11800DD53FB /* BSMeViewController.swift in Sources */,
+				8A49FA441C92C11800DD53FB /* BSEssenceViewController.swift in Sources */,
+				8A49FA2D1C92BAE500DD53FB /* BSNavgationController.swift in Sources */,
 				8A8E268C1C9175E70090C2F7 /* BSTabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

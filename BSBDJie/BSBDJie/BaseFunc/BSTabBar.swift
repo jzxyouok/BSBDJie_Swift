@@ -11,7 +11,6 @@ import UIKit
 class BSTabBar: UITabBar {
 
     var publishButton = UIButton()
-    
     override init(frame: CGRect) {
         super.init(frame: frame)
         publishButton = UIButton(type: .Custom)
@@ -31,12 +30,12 @@ class BSTabBar: UITabBar {
         let publishButtonW = publishButton.currentBackgroundImage?.size.width
         let publishButtonH = publishButton.currentBackgroundImage?.size.height
         
-        publishButton.center = CGPoint(x: self.width()/2, y: self.height()/2)
+        publishButton.center = CGPoint(x: self.width/2, y: self.height/2)
         publishButton.bounds = CGRect(x: 0, y: 0, width: publishButtonW!, height: publishButtonH!)
         
         var index = 0
-        let buttonW = self.width()/5
-        let buttonH = self.height()
+        let buttonW = self.width/5
+        let buttonH = self.height
         for button in self.subviews {
             if (!button.isKindOfClass(NSClassFromString("UITabBarButton")!)) {
                 continue
@@ -45,16 +44,6 @@ class BSTabBar: UITabBar {
             button.frame = CGRect(x: (buttonW * CGFloat(i)), y: 0, width: buttonW, height: buttonH)
             index++
         }
-    }
-}
-
-extension UIView {
-    func width() -> CGFloat {
-        return self.bounds.size.width
-    }
-    
-    func height() -> CGFloat {
-        return self.bounds.size.height
     }
 }
 

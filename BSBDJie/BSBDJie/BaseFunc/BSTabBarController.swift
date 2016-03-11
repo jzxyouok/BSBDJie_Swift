@@ -33,7 +33,9 @@ class BSTabBarController: UITabBarController {
         vc.tabBarItem.title = title
         vc.tabBarItem.image = UIImage(named: image)
         vc.tabBarItem.selectedImage = UIImage(named: selectedImage)
-        self.addChildViewController(vc)
+        
+        let nav = BSNavgationController(rootViewController: vc)
+        self.addChildViewController(nav)
     }
 
     override func didReceiveMemoryWarning() {
