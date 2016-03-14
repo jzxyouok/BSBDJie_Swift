@@ -12,8 +12,21 @@ class BSMeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        //设置导航栏标题
+        self.navigationItem.title = "我的"
+        
+        //设置导航栏item
+        let settingItem = UIBarButtonItem.item(image: "mine-setting-icon", highlightImage: "mine-setting-icon-click", target: self, action: "settingClick")
+        let moonItem = UIBarButtonItem.item(image: "mine-moon-icon", highlightImage: "mine-moon-icon-click", target: self, action: "moonClick")
+        self.navigationItem.rightBarButtonItems = [settingItem, moonItem]
+    }
+    
+    func settingClick() {
+       print("setting")
+    }
+    
+    func moonClick() {
+      print("moon")
     }
 
     override func didReceiveMemoryWarning() {

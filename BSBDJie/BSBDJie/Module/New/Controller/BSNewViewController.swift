@@ -13,7 +13,15 @@ class BSNewViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        //设置导航栏标题
+        self.navigationItem.titleView = UIImageView(image: UIImage(named: "MainTitle"))
+        
+        //设置导航栏item
+        self.navigationItem.leftBarButtonItem = UIBarButtonItem.item(image: "MainTagSubIcon", highlightImage: "MainTagSubIconClick", target: self, action: "newClick")
+    }
+
+    func newClick() {
+        print("new")
     }
 
     override func didReceiveMemoryWarning() {

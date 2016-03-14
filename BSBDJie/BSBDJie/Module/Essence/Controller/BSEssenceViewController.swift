@@ -17,12 +17,8 @@ class BSEssenceViewController: UIViewController {
         self.navigationItem.titleView = UIImageView(image: UIImage(named: "MainTitle"))
         
         //设置导航栏item
-        let button = UIButton(type: .Custom)
-        button.setBackgroundImage((UIImage(named: "MainTagSubIcon")), forState: UIControlState.Normal)
-        button.setBackgroundImage((UIImage(named: "MainTagSubIconClick")), forState: UIControlState.Highlighted)
-        button.addTarget(self, action: "tagClick", forControlEvents: UIControlEvents.TouchUpInside)
-        button.size = (button.currentBackgroundImage?.size)!
-        self.navigationItem.leftBarButtonItem = UIBarButtonItem.item(image: "MainTagSubIcon", highlightImage: "MainTagSubIconClick", target: self, action: "tagClick")    }
+        self.navigationItem.leftBarButtonItem = UIBarButtonItem.item(image: "MainTagSubIcon", highlightImage: "MainTagSubIconClick", target: self, action: "tagClick")
+    }
     
     func tagClick() {
        print("tag")

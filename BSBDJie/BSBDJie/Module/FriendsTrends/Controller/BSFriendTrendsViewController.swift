@@ -12,8 +12,15 @@ class BSFriendTrendsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        //设置导航栏标题
+        self.navigationItem.title = "关注"
+        
+        //设置导航栏item
+        self.navigationItem.leftBarButtonItem = UIBarButtonItem.item(image: "friendsRecommentIcon", highlightImage: "friendsRecommentIcon-click", target: self, action: "friendsClick")
+    }
+    
+    func friendsClick() {
+       print("friends")
     }
 
     override func didReceiveMemoryWarning() {
