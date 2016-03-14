@@ -31,7 +31,7 @@ class BSTabBarController: UITabBarController {
     }
     
     func createChildVC(vc: UIViewController, title: String, image: String, selectedImage: String) {
-        vc.view.backgroundColor = UIColor.greenColor()
+        vc.view.backgroundColor = UIColor.whiteColor()
         vc.tabBarItem.title = title
         vc.tabBarItem.image = UIImage(named: image)
         vc.tabBarItem.selectedImage = UIImage(named: selectedImage)

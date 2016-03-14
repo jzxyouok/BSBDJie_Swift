@@ -20,7 +20,8 @@ class BSFriendTrendsViewController: UIViewController {
     }
     
     func friendsClick() {
-       print("friends")
+       let recommendVC = BSRecommendViewController()
+        self.navigationController?.pushViewController(recommendVC, animated: true)
     }
 
     override func didReceiveMemoryWarning() {
