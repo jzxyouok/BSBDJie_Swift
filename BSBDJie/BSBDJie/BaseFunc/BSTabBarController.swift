@@ -9,14 +9,16 @@
 import UIKit
 
 class BSTabBarController: UITabBarController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
+    
+    override class func initialize() {
         //设置tabbar文字属性
         let item = UITabBarItem.appearance()
         item.setTitleTextAttributes([NSForegroundColorAttributeName: UIColor.grayColor()], forState:UIControlState.Normal)
         item.setTitleTextAttributes([NSForegroundColorAttributeName: UIColor.blackColor()], forState: UIControlState.Selected)
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
 
         //添加子控制器
         createChildVC(BSEssenceViewController(), title: "精华", image: "tabBar_essence_icon", selectedImage: "tabBar_essence_click_icon")
