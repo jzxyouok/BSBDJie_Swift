@@ -23,8 +23,8 @@ class BSTabBarController: UITabBarController {
         //添加子控制器
         createChildVC(BSEssenceViewController(), title: "精华", image: "tabBar_essence_icon", selectedImage: "tabBar_essence_click_icon")
         createChildVC(BSNewViewController(), title: "新帖", image: "tabBar_new_icon", selectedImage: "tabBar_new_click_icon")
-        createChildVC(BSNewViewController(), title: "关注", image: "tabBar_friendTrends_icon", selectedImage: "tabBar_friendTrends_click_icon")
-        createChildVC(BSNewViewController(), title: "我的", image: "tabBar_me_icon", selectedImage: "tabBar_me_click_icon")
+        createChildVC(BSFriendTrendsViewController(), title: "关注", image: "tabBar_friendTrends_icon", selectedImage: "tabBar_friendTrends_click_icon")
+        createChildVC(BSMeViewController(), title: "我的", image: "tabBar_me_icon", selectedImage: "tabBar_me_click_icon")
         
         //KVO监听tabba
         self.setValue(BSTabBar(), forKeyPath: "tabBar")

@@ -17,6 +17,7 @@
 		8A8E268C1C9175E70090C2F7 /* BSTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8E268A1C9175E70090C2F7 /* BSTabBar.swift */; settings = {ASSET_TAGS = (); }; };
 		8A8E268D1C9175E70090C2F7 /* BSTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8E268B1C9175E70090C2F7 /* BSTabBarController.swift */; settings = {ASSET_TAGS = (); }; };
 		8A8E26901C9175F70090C2F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8E268F1C9175F70090C2F7 /* AppDelegate.swift */; settings = {ASSET_TAGS = (); }; };
+		8AEED22D1C966F6C00894A2E /* BSFriendTrendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AEED22C1C966F6C00894A2E /* BSFriendTrendsViewController.xib */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		8A8E268A1C9175E70090C2F7 /* BSTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSTabBar.swift; sourceTree = "<group>"; };
 		8A8E268B1C9175E70090C2F7 /* BSTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSTabBarController.swift; sourceTree = "<group>"; };
 		8A8E268F1C9175F70090C2F7 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8AEED22C1C966F6C00894A2E /* BSFriendTrendsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSFriendTrendsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				8A49FA371C92C11800DD53FB /* BSFriendTrendsViewController.swift */,
+				8AEED22C1C966F6C00894A2E /* BSFriendTrendsViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AEED22D1C966F6C00894A2E /* BSFriendTrendsViewController.xib in Resources */,
 				8A0A6B101C8837DB00EC18E8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
