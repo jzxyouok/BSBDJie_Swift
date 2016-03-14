@@ -22,8 +22,7 @@ class BSEssenceViewController: UIViewController {
         button.setBackgroundImage((UIImage(named: "MainTagSubIconClick")), forState: UIControlState.Highlighted)
         button.addTarget(self, action: "tagClick", forControlEvents: UIControlEvents.TouchUpInside)
         button.size = (button.currentBackgroundImage?.size)!
-        self.navigationItem.leftBarButtonItem = UIBarButtonItem(customView: button)
-    }
+        self.navigationItem.leftBarButtonItem = UIBarButtonItem.item(image: "MainTagSubIcon", highlightImage: "MainTagSubIconClick", target: self, action: "tagClick")    }
     
     func tagClick() {
        print("tag")

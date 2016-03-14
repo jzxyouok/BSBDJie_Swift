@@ -10,6 +10,13 @@ import UIKit
 
 class BSNavgationController: UINavigationController, UIGestureRecognizerDelegate{
 
+    override class func initialize() {
+        let bar = UINavigationBar.appearance()
+//        bar.barTintColor = UIColor.yellowColor()
+//        bar.translucent = false
+        bar.setBackgroundImage(UIImage(named: "navigationbarBackgroundWhite"), forBarMetrics: UIBarMetrics.Default)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -20,19 +27,7 @@ class BSNavgationController: UINavigationController, UIGestureRecognizerDelegate
     override func pushViewController(viewController: UIViewController, animated: Bool) {
         
         if (self.viewControllers.count > 0) {
-        
-            let button = UIButton(type: .Custom)
-            button.frame = CGRect(x: 0, y: 0, width: 70, height: 30)
-            button.setTitle("返回", forState: UIControlState.Normal)
-            button.setTitleColor(UIColor.blackColor(), forState: UIControlState.Normal)
-            button.setTitleColor(UIColor.redColor(), forState: UIControlState.Highlighted)
-            button.titleLabel?.font = UIFont.systemFontOfSize(14)
-            button.setImage((UIImage(named: "navigationButtonReturn")), forState: UIControlState.Normal)
-            button.setImage((UIImage(named: "navigationButtonReturnClick")), forState: UIControlState.Highlighted)
-            button.contentHorizontalAlignment = UIControlContentHorizontalAlignment.Left
-            button.contentEdgeInsets = UIEdgeInsetsMake(0, -10, 0, 0)
-            button.addTarget(self, action: "backClick", forControlEvents: UIControlEvents.TouchUpInside)
-            viewController.navigationItem.leftBarButtonItem = UIBarButtonItem(customView: button)
+            viewController.navigationItem.leftBarButtonItem = UIBarButtonItem.item(title: "返回", image: "navigationButtonReturn", highlightImage: "navigationButtonReturnClick", target: self, action: "backClick")
             
             viewController.hidesBottomBarWhenPushed = true
         }
