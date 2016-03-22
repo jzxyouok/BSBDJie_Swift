@@ -16,6 +16,9 @@ class BSCategory: NSObject {
     //用户数组
     var users: NSMutableArray = []
     
+    //数据总数
+    var total: Int = 0
+    
     //当前页
     var currentPage = 0
 }

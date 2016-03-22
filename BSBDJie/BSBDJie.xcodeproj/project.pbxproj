@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		8A0A6B101C8837DB00EC18E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A0A6B0F1C8837DB00EC18E8 /* Assets.xcassets */; };
+		8A3A17661CA0EB9C0012CEB0 /* BSRecommednViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3A17641CA0EB9C0012CEB0 /* BSRecommednViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		8A3A17671CA0EB9C0012CEB0 /* BSRecommednViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A3A17651CA0EB9C0012CEB0 /* BSRecommednViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		8A3A17691CA0ED3F0012CEB0 /* BSTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3A17681CA0ED3F0012CEB0 /* BSTag.swift */; settings = {ASSET_TAGS = (); }; };
+		8A3A176C1CA0EF480012CEB0 /* BSTagCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3A176A1CA0EF480012CEB0 /* BSTagCell.swift */; settings = {ASSET_TAGS = (); }; };
+		8A3A176D1CA0EF480012CEB0 /* BSTagCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A3A176B1CA0EF480012CEB0 /* BSTagCell.xib */; settings = {ASSET_TAGS = (); }; };
 		8A45478A1C9A806F002321EC /* BSCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4547891C9A806F002321EC /* BSCategory.swift */; settings = {ASSET_TAGS = (); }; };
 		8A45478D1C9A85C3002321EC /* BSCategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A45478B1C9A85C3002321EC /* BSCategoryCell.swift */; settings = {ASSET_TAGS = (); }; };
 		8A45478E1C9A85C3002321EC /* BSCategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A45478C1C9A85C3002321EC /* BSCategoryCell.xib */; settings = {ASSET_TAGS = (); }; };
@@ -36,6 +41,11 @@
 		8A0A6B051C8837DB00EC18E8 /* BSBDJie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BSBDJie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A0A6B0F1C8837DB00EC18E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A0A6B141C8837DB00EC18E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A3A17641CA0EB9C0012CEB0 /* BSRecommednViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSRecommednViewController.swift; sourceTree = "<group>"; };
+		8A3A17651CA0EB9C0012CEB0 /* BSRecommednViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSRecommednViewController.xib; sourceTree = "<group>"; };
+		8A3A17681CA0ED3F0012CEB0 /* BSTag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSTag.swift; sourceTree = "<group>"; };
+		8A3A176A1CA0EF480012CEB0 /* BSTagCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSTagCell.swift; sourceTree = "<group>"; };
+		8A3A176B1CA0EF480012CEB0 /* BSTagCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSTagCell.xib; sourceTree = "<group>"; };
 		8A4547891C9A806F002321EC /* BSCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSCategory.swift; sourceTree = "<group>"; };
 		8A45478B1C9A85C3002321EC /* BSCategoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSCategoryCell.swift; sourceTree = "<group>"; };
 		8A45478C1C9A85C3002321EC /* BSCategoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSCategoryCell.xib; sourceTree = "<group>"; };
@@ -130,6 +140,8 @@
 			isa = PBXGroup;
 			children = (
 				8A49FA321C92C11800DD53FB /* BSEssenceViewController.swift */,
+				8A3A17641CA0EB9C0012CEB0 /* BSRecommednViewController.swift */,
+				8A3A17651CA0EB9C0012CEB0 /* BSRecommednViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -137,6 +149,7 @@
 		8A49FA331C92C11800DD53FB /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				8A3A17681CA0ED3F0012CEB0 /* BSTag.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -144,6 +157,8 @@
 		8A49FA341C92C11800DD53FB /* View */ = {
 			isa = PBXGroup;
 			children = (
+				8A3A176A1CA0EF480012CEB0 /* BSTagCell.swift */,
+				8A3A176B1CA0EF480012CEB0 /* BSTagCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -349,7 +364,9 @@
 				8AEED22D1C966F6C00894A2E /* BSFriendTrendsViewController.xib in Resources */,
 				8AE6385D1C9696D50096F24B /* BSRecommendViewController.xib in Resources */,
 				8A45478E1C9A85C3002321EC /* BSCategoryCell.xib in Resources */,
+				8A3A176D1CA0EF480012CEB0 /* BSTagCell.xib in Resources */,
 				8A0A6B101C8837DB00EC18E8 /* Assets.xcassets in Resources */,
+				8A3A17671CA0EB9C0012CEB0 /* BSRecommednViewController.xib in Resources */,
 				8A4547941C9A933F002321EC /* BSUserCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,10 +433,13 @@
 				8A45478D1C9A85C3002321EC /* BSCategoryCell.swift in Sources */,
 				8A45478A1C9A806F002321EC /* BSCategory.swift in Sources */,
 				8A8E26901C9175F70090C2F7 /* AppDelegate.swift in Sources */,
+				8A3A17691CA0ED3F0012CEB0 /* BSTag.swift in Sources */,
 				8A49FA471C92C11800DD53FB /* BSNewViewController.swift in Sources */,
 				8AE6385C1C9696D50096F24B /* BSRecommendViewController.swift in Sources */,
 				8A8E268D1C9175E70090C2F7 /* BSTabBarController.swift in Sources */,
+				8A3A176C1CA0EF480012CEB0 /* BSTagCell.swift in Sources */,
 				8A49FA461C92C11800DD53FB /* BSMeViewController.swift in Sources */,
+				8A3A17661CA0EB9C0012CEB0 /* BSRecommednViewController.swift in Sources */,
 				8A49FA441C92C11800DD53FB /* BSEssenceViewController.swift in Sources */,
 				8A49FA2D1C92BAE500DD53FB /* BSNavgationController.swift in Sources */,
 				8A8E268C1C9175E70090C2F7 /* BSTabBar.swift in Sources */,

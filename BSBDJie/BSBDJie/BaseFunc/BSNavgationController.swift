@@ -12,8 +12,6 @@ class BSNavgationController: UINavigationController, UIGestureRecognizerDelegate
 
     override class func initialize() {
         let bar = UINavigationBar.appearance()
-//        bar.barTintColor = UIColor.yellowColor()
-//        bar.translucent = false
         bar.setBackgroundImage(UIImage(named: "navigationbarBackgroundWhite"), forBarMetrics: UIBarMetrics.Default)
     }
     

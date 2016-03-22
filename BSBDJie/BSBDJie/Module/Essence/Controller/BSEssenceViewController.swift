@@ -21,7 +21,8 @@ class BSEssenceViewController: UIViewController {
     }
     
     func tagClick() {
-       print("tag")
+       let tagVC = BSRecommednViewController()
+        self.navigationController?.pushViewController(tagVC, animated: true)
     }
 
     override func didReceiveMemoryWarning() {

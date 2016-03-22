@@ -11,7 +11,9 @@
 
 #import "AFNetworking.h"
 #import "SVProgressHUD.h"
+#import "MJRefresh.h"
 #import <MJExtension.h>
 #import "UIImageView+WebCache.h"
+
 
 #endif
